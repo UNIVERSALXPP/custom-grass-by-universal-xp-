@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "vibrantgrass",
+  "version": "${version}",
+  "name": "Vibrant Grass Toggle",
+  "description": "Vibrant Grass (3d3d tone) texture pack bundled as a mod, with an on/off toggle (keybind, /vibrantgrass command, or Resource Packs screen).",
+  "authors": ["Universal_XP_"],
+  "license": "MIT",
+  "icon": "assets/vibrantgrass/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.universalxp.vibrantgrass.VibrantGrassClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
